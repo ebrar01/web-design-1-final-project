@@ -1,0 +1,58 @@
+
+html{
+    font-family:'Open Sans', sans-serif;
+}
+
+header {
+    background-color: black;
+    display: grid;
+    grid-template-rows: 20px;
+    justify-content: center; 
+}
+
+header> h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left : 20px;
+}
+
+a.four{
+    margin-right: 0%;
+}
+
+.one , .two , .three, .four, :link{ 
+    text-decoration: none;
+    color: white;
+    font-size:  1.5rem;
+    margin-right: 50px;
+}
+
+
+.one , .two , .three, .four, :visited{
+    text-decoration: double;
+}
+
+h1{
+    font-size: xx-large;
+    justify-content: center;
+}
+
+#bio{
+    display: grid;
+    justify-content: flex-end;
+
+}
+
+#hello{
+    display: grid;
+    justify-content: center;
+}
+
+
+
