@@ -2,15 +2,14 @@
 html{
     font-family:'Open Sans', sans-serif;
 }
-
 header {
-    background-color: black;
+    background-color: #0E1215;
     display: grid;
-    grid-template-rows: 20px;
-    justify-content: center; 
+    justify-content: center;
+    padding: 0;
 }
 
-header> h2 {
+#header-title{
     color: white;
     font-size: 2rem;
 }
@@ -19,40 +18,159 @@ nav>ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-left : 20px;
 }
 
-a.four{
-    margin-right: 0%;
-}
+li{list-style-type:none;}
 
-.one , .two , .three, .four, :link{ 
+.one {
+    color: white;
+}
+.one:link , .two:link , .three:link, .four:link{
+    
     text-decoration: none;
     color: white;
     font-size:  1.5rem;
-    margin-right: 50px;
+    margin-left: 25px;
 }
 
-
-.one , .two , .three, .four, :visited{
-    text-decoration: double;
+.one:visited, .two:visited, .three:visited, .four:visited{
+    color: gray;
 }
 
+.one:hover, .two:hover, .three:hover, .four:hover{
+    font-style: italic;
+}
 h1{
     font-size: xx-large;
     justify-content: center;
 }
 
-#bio{
-    display: grid;
-    justify-content: flex-end;
-
+#hello-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
 }
 
-#hello{
+#header-div, #header-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#what_i_can{
+    background: #FAFAFA;
+    padding: 80px;
+}
+
+#what_i {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#figures{
     display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+#logocreation, #webdesign, #fullbranding {
+    padding: 20px;
+    padding-bottom: 5px;
+    background-color: white;
+    border: solid rgba(228, 224, 224, 0.442);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.learn_more1:link, .learn_more2:link, .learn_more3:link {
+    color: white;
+    background-color: black;
+    font-style: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: start;
+}
+
+.learn_more1:visited, .learn_more2:visited, .learn_more3:visited {
+    color: gray;
+} 
+ 
+.learn_more1:hover, .learn_more2:hover, .learn_more3:hover {
+    font-style: italic;
+}
+
+#text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#my_work{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
+#myworkpics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} 
+#they_tell_it {
+    background-color: #0E1215;
+    color: white;
+    padding: 100px;
+}
 
+#theytell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#quotes {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
 
+q {
+    font-style: italic;
+}
+
+#crafttext {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact_pics{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer {
+    background-color: black;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+}
+#a1{
+    margin: 5px;
+    width: 60px;
+}
